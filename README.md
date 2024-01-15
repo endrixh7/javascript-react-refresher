@@ -163,22 +163,49 @@
 
 ## Working with Multiple Components
     - For each component create a CSS file to keep the code clean
-    - 
 
 ## Working with Props
-    - 
+    - Sharing data between components using Properties
+    - Share data using Props as Parameter
+    - This way is sharing data manually, next we will see how to inject data dynamically
 
 ## Rendering List of Data
+    - Share data between components dynamically
+    - Using map() method
+    - props.goals.map((goal)=>{
+        return <li>
+    }) // Done
+    - Add key inside of the <li key = {goal.id}>
+    - Done ✅
 
 ## Handling Events
+    - We can create 'subfolders' inside of the 'component' folder
+    - onSubmit for form
+    - onClick for buttons
+    - Functions inside of functions
+    - Done ✅
 
 ## Parent-Child Communication
+    - Passing data from lower level components, from child to parent with help of the props/functions
+    - 
 
 ## Managing State
+    - Tell the React to render the data (from the Form in this case)
+    - Using State 
+    - import useState hook, can be executed inside of the functional components
+    - Manage state and update UI
+    - courseGoals, setCourseGoals
+        - concat the old array with the new array (no best way)
 
 ## More on State
+    - Crucial step in React
+    - Can be everything, text, number, boolean, array, object etc...
+    - previousState
+    - nextState
 
 ## User-Input and Two-Way Binding
+    - Capture the user input, store as State not as variable
+    - Reset the Input field, binding the value prop
 
 ## Wrap Up
     - Done ✅✅

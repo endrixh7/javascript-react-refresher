@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+.goal-list {
+    /* border: 1px solid red; */
+    /* padding: 1rem; */
+    margin: 1rem;
+}
+
+.goal-list li {
+    list-style-type: none;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: 1rem;
+    font-weight: bold;
+}
